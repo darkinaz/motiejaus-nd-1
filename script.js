@@ -35,6 +35,29 @@ skaicius3 -= skaicius4;
 
 console.log(skaicius3, skaicius4);
 
+//5. Į alert išvesti sukeitimo rezultatus.
+
+alert( 'skaicius1 = ' + skaicius1 + '; skaicius2 = ' + skaicius2 + '; skaicius3 = ' + skaicius3 + '; skaicius4 =' + skaicius4);
+
+//6. Susikurti kintamąjį maxSkaicius, jam priskirti maksimalią įmanomą skaitinę reikšmę (infinity netinka) ir išvesti į konsolę.
+
+let maxskaicius;
+
+maxskaicius = Number.MAX_VALUE;
+
+console.log(maxskaicius);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
