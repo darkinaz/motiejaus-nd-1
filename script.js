@@ -2,12 +2,13 @@
 "use strict"
 //2. Apsirašyti 4 kintamuosius: skaicius1, skaicius2, skaicius3, skaicius4.
 
-let skaicius1, skaicius2, skaicius3, skaicius4;
+let skaicius1, skaicius2, skaicius3, skaicius4, skaicius5, skaicius6;
 
 skaicius1 = 2;
 skaicius2 = 4;
 skaicius3 = 6;
 skaicius4 = 12;
+
 
 //3. Į konsolę išvesti visus 4 skaičius, jų visų sumą ir sandaugą.
 console.log(skaicius1, skaicius2, skaicius3, skaicius4);
@@ -46,6 +47,25 @@ let maxskaicius;
 maxskaicius = Number.MAX_VALUE;
 
 console.log(maxskaicius);
+
+//Papildoma
+//1.Susikurti kintamuosius: skaicius5, skaicius6.
+
+skaicius5 = 13;
+skaicius6 = 17;
+
+//2. Sukeisti kinamųju reikšmes skaicius5 ir skaicius6 pasitelkiant XOR operatorių. (nesigavo)
+
+skaicius5 ^= skaicius6;
+skaicius6 = skaicius5;
+skaicius6 ^= skaicius5;
+
+console.log(skaicius5, skaicius6);
+
+//3. Rezultatą patalpinti į HTML dokumento div žymėje, kurios id="Rezultatas". ( nesigavo)
+
+document.getElementById("Rezultatas").innerHTML = "1st html";
+
 
 
 
